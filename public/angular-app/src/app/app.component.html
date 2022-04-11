@@ -1,0 +1,13 @@
+<app-navigation></app-navigation>
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+
+<ng-container *ngIf=" alertConfirm?.show">
+  <div class=" absolute inset-0 bg-white/40">
+    <h1 class=" text-xl m-5 {{alertConfirm?.isSuccess ? null : 'bg-red-500'}}">
+      {{alertConfirm?.message}}
+    </h1>
+  </div>
+</ng-container>
+
+<!-- <app-parent></app-parent> -->

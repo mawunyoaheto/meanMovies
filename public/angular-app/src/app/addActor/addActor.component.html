@@ -1,0 +1,15 @@
+<div class="">
+    <div id="header"><h5 style="color:black">ADD ACTOR</h5></div>
+    <form [formGroup] ="addNewActorForm" class="form-group" (ngSubmit) ="save()">
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input formControlName="name" type="text" class="form-control" #name>
+        </div>
+        <div class="form-group">
+            <label for="awards">Awards Recieved</label>
+            <input formControlName="awards" type="text" class="form-control" #awards>
+        </div>
+        <button class="btn btn-primary" >Submit</button>
+        <button class="btn btn-primary" type="reset">Clear</button>
+    </form>
+</div>

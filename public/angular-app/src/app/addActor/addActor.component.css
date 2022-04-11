@@ -1,0 +1,46 @@
+input[type=text], input[type=email],select {
+  margin-bottom: 2px;
+  width: 98%;
+  border: 1px solid #999;
+  padding: 2px;
+
+}
+label{
+  color: black;
+}
+
+
+  form{
+      margin: 0 auto;
+      margin-bottom: 2em;
+      width: 600px;
+      padding: 1em;
+      border: 1px solid #CCC;
+      border-radius: 1em;
+      box-shadow: 1px 2px 2px 1px #dedada;
+
+  }
+
+  form div{
+      margin: 10px;
+  }
+
+  div.card {
+      margin: 0 auto;
+      width: 550px;
+      padding: 5px;
+  }
+  button {
+      margin: 3px;
+      padding: 3px 6px;
+      border-radius: 4px;
+      cursor: pointer;
+      /* float: right; */
+    }
+
+
+    #header{
+      margin: 0 auto;
+      width: 550px;
+      margin-bottom: 5px;
+  }
